@@ -1,0 +1,48 @@
+/* *{
+    outline: 1px solid red !important;
+} */
+
+body
+{
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    border: 1px solid black;
+    border-bottom: 0;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div img
+{
+    height: 50px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+main article
+{
+    flex: 2;
+    overflow-y: auto;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+main aside
+{
+    flex: 1;
+    overflow-y: auto;
+}

@@ -1,0 +1,27 @@
+#fire
+{
+    font-size: 40px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+header
+{
+    background-color: navy;
+    color: white;
+}
+
+a
+{
+    color: white;
+}
+
+aside
+{
+    background-color: rgb(230, 212, 212);
+    font-weight: bold;
+}

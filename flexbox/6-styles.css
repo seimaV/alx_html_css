@@ -226,7 +226,7 @@
 
   .nav .nav-item + .nav-item
   {
-    display: var(--nav-item-display);;
+    margin: var(--nav-item-margin);
   }
   
   .nav .nav-link {

@@ -1,0 +1,399 @@
+/* * {
+    outline: 1px solid red !important;
+ } */
+body
+{
+    border: 5px solid black;
+    /* height: 100vw; */
+    padding: 10px;
+}
+
+header
+{
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header div
+{
+    border: 1px solid green;
+    padding: 2px;
+    
+}
+
+.site-logo
+{
+    height: 50px;
+    width: 170px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.site-logo a
+{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+#nav-links
+{
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 400px;
+}
+
+#nav-links a
+{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+main
+{
+    border: 5px solid black;
+    padding: 12px;
+    padding-top: 6px; 
+    margin-top: 10px;
+}
+
+main section
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2
+
+
+section .banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top
+{
+    border: 1px solid black;
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.top h1
+{
+    border: 1px solid rgb(162, 118, 231);
+    margin: 0px;
+    width: 100px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.top button
+{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.top p
+{
+    border: 1px solid purple;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+}
+
+.bottom
+{
+    border: 1px solid black;
+    width: 700px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.bottom h2
+{
+    border: 1px solid rgb(141, 65, 240);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 5px;
+}
+
+#subtitle
+{
+    border: 1px solid rgb(156, 62, 62);
+    display: flex;
+}
+
+#subtitle div
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 9px;
+}
+
+#subtitle img
+{
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 3px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#subtitle div h4
+{
+    border: 1px solid purple;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#subtitle p
+{
+    border: 1px solid blue;
+    padding: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+#quote
+{
+    border: 1px solid black;
+    display: flex;
+    margin: 10px; 
+}
+
+#quote img
+{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px;
+}
+
+#quote div
+{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#video
+{
+    border: 1px solid black;
+    margin-top: 4px;
+    display: flex; 
+}
+
+#video h2
+{
+    border: 1px solid rgb(38, 112, 112);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#Video-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.vid-block
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#thumb
+{
+    border: 1px solid crimson;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+}
+
+.vid-block h4
+{
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.vid-block p 
+{
+    border: 1px solid black;
+    margin-top: 1px;
+}
+
+#lower
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#author
+{
+    border: 1px solid yellow;
+    display: flex;
+    height: 80px;
+    width: 200px;
+    justify-content: space-between ;
+}
+
+#author img
+{
+    border: 2px solid black;
+    border-radius:60%;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+#author h5
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#rating
+{
+    border: 1px solid yellow;
+    margin-bottom: 0px;
+}
+
+#rating-stars
+{
+    border: 1px solid red;
+    margin-bottom: 15px;
+}
+
+#membership
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#member-block
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.members
+{
+    border: 1px solid palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.members img
+{
+    border: 1px solid purple;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+
+.members h5, p 
+{
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+#membership button
+{
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+#faq
+{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer
+{
+    border: 3px solid black;
+    margin-top: 5px;
+}
+
+#foot
+{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-block
+{
+    display: flex;
+    align-items: center;
+}
+
+.row-block #footer-img
+{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#img img
+{
+    height: 40px;
+}

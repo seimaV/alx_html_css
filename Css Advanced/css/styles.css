@@ -1,0 +1,432 @@
+/* * {
+    outline: 1px solid red !important;
+ } */
+
+header
+{
+    background-image: url(../images/Object.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 5%;
+}
+
+body
+{
+    border: 5px solid black;
+    padding: 1px;
+}
+
+#head
+{
+    /* border: 2px solid black; */
+    /* height: 70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head div
+{
+    /* border: 1px solid green;
+    padding: 2px;  */
+}
+
+.site-logo
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo a
+{
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#nav-links
+{
+    display: flex; 
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 400px;
+}
+
+#nav-links a
+{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+main
+{
+    border: 5px solid black;
+    padding: 12px;
+    padding-top: 6px; 
+    margin-top: 10px;
+}
+
+main section, .section2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+section > .top, section > .bottom
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .banner
+{
+
+} */
+
+.top
+{
+    /* border: 1px solid black;
+    margin: 5px; */
+    padding: 5px;align-items: center;
+}
+
+.top h1
+{
+    margin: 0px;
+    padding-top: 10%;
+    color: #FFF;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 700;
+}
+
+#three-words
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+    gap: 35%;
+    margin-top: 0;
+}
+
+.top button
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 70px;
+    background-color: #C271FF;
+    box-shadow: 1px 1px 15px 1px ;
+    margin-top: 5%;
+}
+
+.top p
+{
+    /* border: 1px solid purple; */
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+}
+
+.bottom
+{
+    /* border: 1px dashed black; */
+    padding: 2% 0%;
+    margin-bottom: 5px;
+    /* align-items: center; */
+}
+
+.bottom > h2 > span
+{
+    color: #C271FF;
+}
+
+.bottom h2
+{
+    padding: 5% 0%;
+    margin: 5px;
+    color: #FFF;
+    align-self: center;
+}
+
+#subtitle
+{
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+    justify-content: space-between;
+}
+
+#subtitle div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subtitle > div > img
+{
+    border-radius: 50%;
+    margin-top: 3px;
+    padding: 0px 5px;
+}
+
+#subtitle > div > h4
+{
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#subtitle > div > p
+{
+    margin-bottom: 3px;
+    border: none;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#section2
+{
+    display: flex;background-color: #C271FF;
+    justify-content: center;
+}
+
+#quote
+{
+    display: flex;
+    margin: 10px; 
+    align-self: center;
+    color: #FFF;
+    font-size: 22px;
+}
+
+#quote img
+{
+    padding: 50px;
+    margin: 10px;
+}
+
+#quote div
+{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+#quote a
+{
+   color: #FFF;
+   padding: 5px 0px;
+   font-weight: 700;
+}
+
+#quote  p
+{
+    border: none;
+    font-style: italic;
+}
+
+#video
+{
+    border: 1px solid black;
+    margin-top: 4px;
+    display: flex; 
+}
+
+#video h2
+{
+    border: 1px solid rgb(38, 112, 112);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#Video-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.vid-block
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#thumb
+{
+    border: 1px solid crimson;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+}
+
+.vid-block h4
+{
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.vid-block p 
+{
+    border: 1px solid black;
+    margin-top: 1px;
+}
+
+#lower
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#lower > :nth-child(2)
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#author
+{
+    border: 1px solid yellow;
+    display: flex;
+    height: 80px;
+    width: 200px;
+    justify-content: space-between ;
+}
+
+#author img
+{
+    border-radius:60%;
+    margin: 5px;
+}
+
+#author h5
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#time
+{
+    border: 1px solid yellow;
+    margin-bottom: 0px;
+}
+
+#rating-stars
+{
+    border: 1px solid red;
+    margin-bottom: 15px;
+}
+
+#membership
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#member-block
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.members
+{
+    border: 1px solid palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.members img
+{
+    border: 1px solid purple;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+
+.members h5, p 
+{
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+#membership button
+{
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+#faq
+{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer
+{
+    border: 3px solid black;
+    margin-top: 5px;
+}
+
+#foot
+{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-block
+{
+    display: flex;
+    align-items: center;
+}
+
+.row-block #footer-img
+{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#img img
+{
+    height: 40px;
+}
